@@ -1,0 +1,39 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaged output
+/build*/
+/dist*/
+
+# Runtime-generated data
+/logs/
+/reports/
+*.log
+
+# Private cloud configuration
+rclone.conf
+**/rclone.conf
+
+# Environment and credentials
+.env
+.env.*
+*.secret
+*.token
+
+# Temporary and backup files
+*.bak
+*.tmp
+*~
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+/test.txt
